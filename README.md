@@ -2,7 +2,13 @@
 
 
 ## 👋 Introduction:
-A modern and professional portfolio website designed to showcase the skills, achievements, and projects of **M Usman**, a passionate web developer. Built entirely with **HTML**, **CSS**, and **JavaScript**, this website is fully responsive, visually appealing, and tailored for showcasing personal and professional highlights effectively.
+BeeNovels is a full-stack e-commerce platform for purchasing and reading novels, built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It includes:
+
+1. User & Admin Dashboards
+2. Book Browsing & Purchasing System
+3. Reading Interface (with demo & full versions)
+5. Content Management (using TipTap Editor for books & static pages)
+5. Contact Form (email support)
 
 
 ## 📸 Screenshots:
@@ -17,88 +23,87 @@ Desktop Version:
   </tr>
 </table>
 
-Mobile Version:
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/00317bab-81a6-488c-94d2-f76c04d08920" alt="MUsmanDeveloper Portfolio HTML CSS JS Website - Mobile Image 01"  width='500' /></td>
-    <td><img src="https://github.com/user-attachments/assets/898d968c-67f9-43bf-bf97-8207ed698042" alt="MUsmanDeveloper Portfolio HTML CSS JS Website - Mobile Image 02"  width='500' /></td>
-    <td><img src="https://github.com/user-attachments/assets/87a10be7-de77-4f6f-b423-c635c4d5c32a" alt="MUsmanDeveloper Portfolio HTML CSS JS Website - Mobile Image 03"  width='500' /></td>
-  </tr>
-</table>
 
 
 
 ## 🎥 Videos:
 Below are the following videos of the project:
 
-[Demo Video of MUsmanDeveloper Portfolio using HTML CSS JS](https://github.com/user-attachments/assets/e653a4eb-aca6-4dd8-a0a9-87f2f55ae5e7)
+
 
 ## 🚀 Features:
 The project have following features:
 
-- **Clean & Responsive Design**: Works seamlessly across all devices, from desktops to mobile screens.
-- **Dynamic Content**: Interactive elements implemented using JavaScript.
-- **SEO Optimized**: Structured for improved visibility on search engines.
-- **User-Friendly Navigation**: Easy-to-use interface with intuitive sections.
+📚 User Features:
+✅ Authentication – Secure login/signup (JWT)
+✅ Book Browsing – Homepage, Shop (filter/sort/pagination), Book Details (reviews + related books)
+✅ Reading Experience – Read demo samples, access purchased books in "My Shelf"
+✅ Shopping – Add to cart, checkout, wishlist
+✅ User Dashboard – Orders, profile settings, password reset, account deletion
 
-The detailed description of website featured sections are below:
+👑 Admin Features:
+🛠 Full CMS – Manage users, books, categories, orders
+📊 Analytics – Sales, user stats
+📝 TipTap Editor – Add books chapter-wise & manage static pages (About Us, T&C, Privacy Policy)
+✉️ Email System – Contact Us form (Nodemailer)
 
-### 1. About:
-- A brief introduction about person/company **M Usman**, including a professional summary, passions, and career goals.
-
-### 2. Services:
-- Highlights of the services offered, such as; Website Development, App Development, WordPress Development, SEO, etc
-
-### 3. Skills:
-- Showcases technical skills with visually engaging percentage progress bars or icons, covering; HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, MySQL, WordPress, Shopify, etc
-
-### 4. Education & Experience:
-- Displays academic achievements and professional milestones on a timeline:
-  - **Education**:
-    - BS in Computer Science - XYZ University (Graduated: 202X)
-  - **Experience**:
-    - Junior Frontend Developer at ABC Company (202X-202X)
-    - Freelance Web Developer (202X-Present)
-
-### 5. Projects:
-- A showcase of personal and professional projects flexbox cards with descriptions, features, and github repository and live demo links:
-
-### 6. Testimonials:
-- Feedback and recommendations from clients or colleagues to build trust and credibility.
-
-### 7. Achievements:
-- Highlights of certifications, awards, or recognitions received.
-
-### 8. Contact:
-- A contact form and direct links for communication.
+🛒 E-Commerce Features:
+🔄 Cart System – Auto-add on purchase
+💳 Payment Integration – (Stripe/RazorPay) (if applicable)
+📦 Order Management – Track purchases (User + Admin)
 
 
 ## 🔧 Technologies & Tools:
 Following technologies and tools were used in this project:
 
-1. HTML
-2. CSS
-3. JavaScript
+1. Frontend:
+React.js
+Tailwind CSS + Material UI
+TipTap Editor (Rich-text for books & pages)
+Swiper.js (Sliders)
+Axios (API calls)
+
+2. Backend:
+Node.js + Express.js
+MongoDB (Mongoose)
+JWT (Auth)
+Cloudinary (Image uploads)
+Nodemailer (Contact Us emails)
+
+3. Dev Tools:
+Git, Postman, VS Code
 
    
 ## 🌐 Live Demo:
 To get live demo, visit the below platform:
 
-1. [Website](https://musmandeveloper.vercel.app)
+
 
 
 ## 🛠️ Installation:
 To download and install or customize follow below steps:
 
+### Step 0: Prerequisites:
+Node.js (v14+)
+MongoDB (Atlas/local)
+
 ### Step 1: Download the project:
 1. Clone the repository to download project.
 
+### Step 2: Install dependencies:
+1. Install the project dependecie using below commands pne by one:
+cd backend && npm install
+cd ../frontend && npm install
 
+### Step 3: Set up .env file:
+Set up .env file.
+
+   
 ## 📄 Usage ##
 Follow below insructions to use & run the project.
 
 ### Step 1: Run the Project ###
-1. Run the index.html file by double click on it or open it using vs code by live server.
+Run dev server.
 
 
 ## 💬 Contact:
